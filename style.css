@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+}
+
+
+header {
+    text-align: center;
+    top: 100px;
+    position: absolute;
+    width: 80%;
+    font-size: 2rem;
+    font-family: fantasy;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+li {   
+     
+    background: rgba(4, 4, 4, 0.08);
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px auto;
+    text-transform: capitalize;
+    width: 99%;
+   }
+
+.check {
+    position: relative;
+}
+
+
+
+.date {
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+
+.mainContainer {
+    outline: 1px solid #fff;
+    outline-offset: -2px;
+    display: inline-block;
+    border-radius: 20px;
+    max-width: 513px;
+    margin-top: 190px;
+    background: rgb(204,204,204);
+    background: linear-gradient(90deg, rgba(204,204,204,0.9282908519553073) 0%, rgba(218,165,32,1) 1%, rgb(193, 151, 45) 50%, rgb(205, 177, 107) 99%, rgba(6,6,6,0.9534305167597765) 100%);
+/*     background: goldenrod; */
+    width: 100%;
+    min-width: 480px;
+    align-items: center;
+}
+
+#activeContainer {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+    min-height: 60px;
+    min-width: 500px;
+}
+
+#inputBox {
+    width: 444px;
+    height: 34px;
+    border-radius: 10px 0 0 10px;
+}
+
+#addButton {
+    height: 40px;
+    width: 40px;
+    border-radius: 0 10px 10px 0;
+}
+
+#passiveContainer {
+  
+    max-width: 100%;
+}
+
+.clicked{
+    text-decoration: line-through;
+    ;
+}
+
+.div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.far {
+    padding-right: 15px;
+}
+
+.clear {
+    text-align: end;
+    padding-right: 12px;
+    padding-bottom: 10px;
+}
+
+.todoCreationDate{
+    
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 270px;
+    height: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#clearButton {
+    border-radius: 10px 0 0 10px;
+}
+
+#undoneTodos {
+   
+    background: linear-gradient(89deg, rgba(204,204,204,1) 0%, rgba(170,121,0,0.6657210195530726) 1%, rgba(255,0,0,0.5651623603351955) 98%, rgba(96,0,0,1) 100%);
+   /*  background: rgba(255, 0, 0, 0.077); */
+   border-radius: 10px;
+   margin: auto 12px;
+}
+
+#doneTodos{
+   
+    border-radius: 10px;
+    margin: auto 12px;
+  /*   background: rgba(13, 150, 18, 0.3); */
+
+
+  background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(170,121,0,0.6489612430167597) 1%, rgba(47,164,5,0.5651623603351955) 98%, rgba(17,64,0,1) 100%);    
+}
+
+#finitto {
+   
+    font-size: 1rem;
+}
+
+#currentDate {
+    font-size: 15px;
+    text-align: center;
+}
+
+#showButton, #clearButton{
+height: 40px;
+width: 40px;
+}
+
+#showButton{
+    border-radius: 0 10px 10px 0;
+}

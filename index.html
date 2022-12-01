@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link 
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      todos!
+      <div id="currentDate"></div>
+    </header>
+
+    <div class="mainContainer">
+      <div id="activeContainer">
+        <input
+          type="text"
+          id="inputBox"
+          class="inputBox"
+          placeholder=" What needs to be done?"
+        /><button id="addButton" onclick="inputHandler()">+</button>
+      </div>
+
+      <div id="passiveContainer">
+      <ul id="undoneTodos"></ul>
+      <ul id="doneTodos"></ul>
+      </div>
+      <div class="clear">
+        <button id="clearButton" onclick="deleteAllDoneTodos()">
+          <i class="fa fa-trash"></i>
+          
+        </button><button id="showButton" onclick="showTodosOrUntodos()">
+          <i class="fa-solid fa-list"></i>        
+        
+        <script src="app.js"></script>
+         
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
